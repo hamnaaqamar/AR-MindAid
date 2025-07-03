@@ -1,0 +1,4 @@
+picture_frame 0.0 311.2 35.2 507.2
+picture_frame 0.0 124.0 51.999744 296.8
+picture_frame 50.400256 63.2 999.199744 588.0
+picture_frame 67.999744 0.0 998.4 96.0

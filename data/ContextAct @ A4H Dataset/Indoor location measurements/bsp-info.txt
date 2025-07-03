@@ -1,0 +1,10 @@
+The indoor location data was taken using a sensor called bspoon. The user wore a bluetooth tag on her pocket and receivers were installed on the ceiling so that the position is calculated using  triangulation.
+
+The log has three coordinates on each line X, Y Z given in meters.
+The Z coordinate doesn't give much information but if it gives you more than 2.5 or it is negative, then the values (X and Y) are not very fiable.
+
+The value 0,0,0 corresponds to the coin behind the television (refer to apartment plan).
+X value measures the distance from that coin in direction to the main entrance.  Its maximum value is 10 meters.
+
+Y value measure the distance perpendicular to Y, so from the coin to where the windows are Its maximum value is 5 meteres.
+For example, given a coordinate of  8  4 1.5 corresponds more or less to being in the kitchen. 
