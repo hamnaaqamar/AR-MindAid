@@ -14,12 +14,27 @@
 .cxx
 local.properties
 # Ignore dataset files
-# Ignore large datasets
+# Ignore EgoHands dataset and other large datasets
+data/egoHands/
+data/open_images_subset/
+data/ContextAct @ A4H Dataset/
+
+# Ignore zip, mat, log files
+*.zip
+*.mat
+*.log
 data/**/*.csv
 data/**/*.log
-*.zip
 
-# Specifically ignore OpenImages and ContextAct sensors
-data/open_images_subset/
-data/ContextAct @ A4H Dataset/Sensor measurements/
+# Ignore Python/Colab cache and temp files
+__pycache__/
+*.pyc
+*.ipynb_checkpoints/
+.DS_Store
+
+# Ignore large bounding box annotation files
+*oidv6-train-annotations-bbox.csv
+
+
+
 
