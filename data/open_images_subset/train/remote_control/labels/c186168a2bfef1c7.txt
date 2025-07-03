@@ -1,4 +1,0 @@
-remote_control 0.0 0.0 313.6 679.35944
-remote_control 104.96 0.0 640.0 626.85528
-remote_control 477.44 0.0 944.64 534.01148
-remote_control 803.84 0.0 1023.36 334.87756
