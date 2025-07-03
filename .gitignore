@@ -14,12 +14,12 @@
 .cxx
 local.properties
 # Ignore dataset files
+# Ignore large datasets
 data/**/*.csv
 data/**/*.log
 *.zip
 
-# Ignore EgoHands full download
-data/egohands_data/
-
-# Ignore OpenImages subset if downloaded
+# Specifically ignore OpenImages and ContextAct sensors
 data/open_images_subset/
+data/ContextAct @ A4H Dataset/Sensor measurements/
+
