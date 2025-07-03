@@ -13,3 +13,13 @@
 .externalNativeBuild
 .cxx
 local.properties
+# Ignore dataset files
+data/**/*.csv
+data/**/*.log
+*.zip
+
+# Ignore EgoHands full download
+data/egohands_data/
+
+# Ignore OpenImages subset if downloaded
+data/open_images_subset/
